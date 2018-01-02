@@ -55,7 +55,8 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  let cartItems = Object.keys(cart);
+  
 }
 
 function placeOrder(cardNumber) {
