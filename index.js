@@ -59,7 +59,7 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       if (i === 0) {
         cart.shift();
-      } elseif (i == cart.length - 1) {
+      } else if (i == cart.length - 1) {
         cart.pop();
       } else {
         cart = [...cart.slice(0, i), ...cart.slice(i + 1)];
