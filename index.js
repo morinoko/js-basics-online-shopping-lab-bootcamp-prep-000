@@ -59,9 +59,9 @@ function removeFromCart(item) {
     if (cart[i].hasOwnProperty(item)) {
       return "true";
     }
-    console.log("That item is not in your cart.");
-    return;  
   }
+  console.log("That item is not in your cart.");
+    return; 
 }
 
 function placeOrder(cardNumber) {
