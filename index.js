@@ -26,6 +26,7 @@ function viewCart() {
       let itemName = item[0];
       let itemPrice = cart[i][itemName];
       cartContents += `${itemName} at $${itemPrice}`;
+      
       if (cart.length == 1 || i + 1 == cart.length) {
         cartContents += '.';
       }
